@@ -21,13 +21,13 @@ class form5 extends JFrame implements ActionListener, KeyListener {
         setSize(600, 640);
         setResizable(false);
         setLocationRelativeTo(null);
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
         setLayout(null);
         Toolkit tk = Toolkit.getDefaultToolkit();
         Dimension ss = tk.getScreenSize();
 
         panel1.setLayout(null);
-
+        panel1.setBackground(Color.blue);
         panel2.setLayout(null);
         panel2.setBackground(Color.white);
         try {
@@ -515,6 +515,7 @@ class form5 extends JFrame implements ActionListener, KeyListener {
             setLayout(null);
 
             panel1.setLayout(null);
+            panel1.setBackground(Color.blue);
             panel2.setLayout(null);
             panel1.setBackground(c);
             panel2.setBackground(Color.white);

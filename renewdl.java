@@ -41,7 +41,7 @@ class renewdl extends JFrame implements KeyListener, ActionListener {
     renewdl() {
         setTitle("Renewal-Driving Licence");
         setSize(1350, 730);
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
         setResizable(false);
         setLocationRelativeTo(null);
         setLayout(null);
@@ -596,7 +596,7 @@ class renewdl extends JFrame implements KeyListener, ActionListener {
     renewdl(String x1, String x2) {
         setTitle("Renewal-Driving Licence");
         setSize(1350, 730);
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
         setResizable(false);
         setLocationRelativeTo(null);
         setLayout(null);

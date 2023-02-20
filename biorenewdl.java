@@ -26,7 +26,7 @@ class biorenewdl extends JFrame implements KeyListener, ActionListener {
     biorenewdl() {
         setTitle("Biometrics");
         setSize(710, 610);
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
         setResizable(false);
         setLocationRelativeTo(null);
         setLayout(null);
@@ -183,7 +183,7 @@ class biorenewdl extends JFrame implements KeyListener, ActionListener {
     biorenewdl(String x1, String x2, String x3, String app, String dl) {
         setTitle("Biometrics");
         setSize(710, 610);
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
 
         setResizable(false);
         setLocationRelativeTo(null);

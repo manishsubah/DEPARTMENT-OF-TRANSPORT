@@ -6,7 +6,7 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.*;
-import javax.swing.Timer;
+
 import javax.swing.table.*;
 
 class feereport extends JFrame implements ActionListener, KeyListener {
@@ -24,7 +24,7 @@ class feereport extends JFrame implements ActionListener, KeyListener {
     
     feereport() {
         setTitle("Fees Report");
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
         setSize(600, 430);
         setResizable(false);
         setLocationRelativeTo(null);

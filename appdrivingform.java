@@ -28,7 +28,7 @@ class appdrivingform extends JFrame implements Printable, ActionListener, KeyLis
         setResizable(false);
         setLocationRelativeTo(null);
         setLayout(new BorderLayout());
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
         p1.setLayout(null);
         p1.setSize(1000, 700);
 
@@ -36,7 +36,7 @@ class appdrivingform extends JFrame implements Printable, ActionListener, KeyLis
         ldate.setFont(new Font("Bookman Old Style", Font.PLAIN, 15));
         lhead = new JLabel("<html><b><u>Driving Licence Report</html>");
         lhead.setFont(new Font("Arial", Font.PLAIN, 15));
-        l1 = new JLabel(new ImageIcon("indian.png"));
+        l1 = new JLabel(new ImageIcon("images/indian.png"));
 
         l2 = new JLabel("INDIAN TRANSPORT DEPARTMENT");
         l2.setFont(new Font("Bookman Old Style", Font.PLAIN, 20));
@@ -176,6 +176,7 @@ class appdrivingform extends JFrame implements Printable, ActionListener, KeyLis
         add(p1);
         b1.addActionListener(this);
         b1.addKeyListener(this);
+        
         setVisible(true);
 
         try {
@@ -241,7 +242,7 @@ class appdrivingform extends JFrame implements Printable, ActionListener, KeyLis
         setResizable(false);
         setLocationRelativeTo(null);
         setLayout(new BorderLayout());
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
 
         p1.setLayout(null);
         p1.setSize(1000, 700);

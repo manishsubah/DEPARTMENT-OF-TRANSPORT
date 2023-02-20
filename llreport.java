@@ -15,11 +15,11 @@ class llreport extends JFrame implements ActionListener, KeyListener {
     JPanel panel1 = new JPanel();
     JPanel panel2 = new JPanel();
     ButtonGroup g1 = new ButtonGroup();
-    ImageIcon imgicon = new ImageIcon("C:\\Users\\Public\\Pictures\\fac.ico");
+    ImageIcon imgicon = new ImageIcon("");
 
     llreport() {
         setTitle("Learner Licence Report");
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
         setSize(600, 390);
         setResizable(false);
         setLocationRelativeTo(null);

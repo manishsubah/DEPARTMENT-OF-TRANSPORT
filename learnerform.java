@@ -26,7 +26,7 @@ class learnerform extends JFrame implements Printable, ActionListener, KeyListen
     learnerform() {
         setTitle("Learner Licence");
         setSize(1050, 700);
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
         setResizable(false);
         setLocationRelativeTo(null);
         setLayout(new BorderLayout());
@@ -43,7 +43,7 @@ class learnerform extends JFrame implements Printable, ActionListener, KeyListen
         ldate.setFont(new Font("Bookman Old Style", Font.PLAIN, 15));
         lhead = new JLabel("<html><b><u>Learner Licence Report</html>");
         lhead.setFont(new Font("Arial", Font.PLAIN, 15));
-        l1 = new JLabel(new ImageIcon("indian.png"));
+        l1 = new JLabel(new ImageIcon("images/indian.png"));
 
         l2 = new JLabel("INDIAN TRANSPORT DEPARTMENT");
         l2.setFont(new Font("Bookman Old Style", Font.PLAIN, 20));
@@ -252,7 +252,7 @@ class learnerform extends JFrame implements Printable, ActionListener, KeyListen
         setResizable(false);
         setLocationRelativeTo(null);
         setLayout(new BorderLayout());
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
 
         p1.setLayout(null);
         p1.setSize(1000, 700);
@@ -266,7 +266,7 @@ class learnerform extends JFrame implements Printable, ActionListener, KeyListen
         ldate.setFont(new Font("Bookman Old Style", Font.PLAIN, 15));
         lhead = new JLabel("<html><b><u>Learner Licence Report</html>");
         lhead.setFont(new Font("Arial", Font.PLAIN, 15));
-        l1 = new JLabel(new ImageIcon("indian.png"));
+        l1 = new JLabel(new ImageIcon("images/indian.png"));
 
         l2 = new JLabel("INDIAN TRANSPORT DEPARTMENT");
         l2.setFont(new Font("Bookman Old Style", Font.PLAIN, 20));
@@ -308,7 +308,7 @@ class learnerform extends JFrame implements Printable, ActionListener, KeyListen
         ll2.setFont(new Font("Bookman Old Style", Font.PLAIN, 15));
         ll3 = new JLabel();
         ll3.setFont(new Font("Bookman Old Style", Font.PLAIN, 15));
-        ll4 = new JLabel("Mouna Dhanuk Toli ,Near - Panchayat Bhawan ");
+        ll4 = new JLabel("");
         ll4.setFont(new Font("Bookman Old Style", Font.PLAIN, 15));
         ll5 = new JLabel();
         ll5.setFont(new Font("Bookman Old Style", Font.PLAIN, 15));
@@ -324,7 +324,7 @@ class learnerform extends JFrame implements Printable, ActionListener, KeyListen
         ll10.setFont(new Font("Bookman Old Style", Font.PLAIN, 15));
         ll11 = new JLabel();
         ll11.setFont(new Font("Bookman Old Style", Font.PLAIN, 15));
-        ll12 = new JLabel("ma");
+        ll12 = new JLabel("");
         ll12.setFont(new Font("Bookman Old Style", Font.PLAIN, 15));
 
         b1 = new JButton("PRINT");

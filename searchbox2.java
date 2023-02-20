@@ -21,7 +21,7 @@ class searchbox2 extends JFrame implements ActionListener, KeyListener {
     searchbox2() {
         setTitle("Search - Driving Licence ");
         setSize(860, 470);
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
         setResizable(false);
         setLocation(300, 70);
         setLayout(null);

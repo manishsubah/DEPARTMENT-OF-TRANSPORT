@@ -27,7 +27,7 @@ class nuser extends JFrame implements ActionListener, KeyListener {
         setTitle("New Staff Creation");
         setSize(800, 480);
         setResizable(false);
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
         setLocationRelativeTo(null);
         setLayout(null);
         panel1.setLayout(null);

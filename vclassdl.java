@@ -19,10 +19,10 @@ class vclassdl extends JFrame implements ActionListener, KeyListener {
         setResizable(false);
         setLocationRelativeTo(null);
         setLayout(null);
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
         panel1.setLayout(null);
         panel2.setLayout(null);
-        panel1.setBackground(Color.yellow);
+        panel1.setBackground(Color.blue);
         panel2.setBackground(Color.white);
         try {
             UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");

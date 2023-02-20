@@ -35,7 +35,7 @@ class approvalsm extends JFrame implements KeyListener, ActionListener {
     approvalsm() {
         setTitle("Approval-Driving Licence");
         setSize(1350, 730);
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
         setResizable(false);
         setLocationRelativeTo(null);
         setLayout(null);
@@ -465,7 +465,7 @@ class approvalsm extends JFrame implements KeyListener, ActionListener {
             try {
                 Class.forName("oracle.jdbc.driver.OracleDriver");
                 Connection c = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "system", "manish");
-                // Connection c=DriverManager.getConnection("jdbc:odbc:dto","","");
+                
                 Statement s = c.createStatement();
                 ResultSet rs = s.executeQuery("select count(dlnumber) from drivinglicense");
                 if (rs.next()) {

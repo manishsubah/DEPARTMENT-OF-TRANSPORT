@@ -37,13 +37,13 @@ class applications extends JFrame implements KeyListener, ActionListener {
     applications() {
         setTitle("Apply Smart Card");
         setSize(1350, 730);
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
         setResizable(false);
         setLocationRelativeTo(null);
         setLayout(null);
         panel1.setLayout(null);
         panel2.setLayout(null);
-        panel1.setBackground(Color.yellow);
+        panel1.setBackground(Color.blue);
         panel2.setBackground(Color.white);
         
         l = new JLabel("APPLICATION FOR SMART CARD");
@@ -588,7 +588,7 @@ class applications extends JFrame implements KeyListener, ActionListener {
         setResizable(false);
         setLocationRelativeTo(null);
         setLayout(null);
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
 
 
         panel1.setLayout(null);

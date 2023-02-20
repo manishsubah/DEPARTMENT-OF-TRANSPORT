@@ -17,8 +17,8 @@ class approvaldl extends JFrame implements ActionListener, KeyListener {
     
     approvaldl() {
         setTitle("Approval");
-        setSize(1000, 675);
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setSize(1000, 685);
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
         setResizable(false);
         setLocationRelativeTo(null);
         setLayout(null);

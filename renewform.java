@@ -26,7 +26,7 @@ class renewform extends JFrame implements Printable, ActionListener, KeyListener
     renewform() {
         setTitle("Application Renewal-DL");
         setSize(1050, 700);
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
         setResizable(false);
         setLocationRelativeTo(null);
         setLayout(new BorderLayout());
@@ -40,7 +40,7 @@ class renewform extends JFrame implements Printable, ActionListener, KeyListener
         ldate.setFont(new Font("Bookman Old Style", Font.PLAIN, 15));
         lhead = new JLabel("<html><b><u>Renewal-DL Report</html>");
         lhead.setFont(new Font("Arial", Font.PLAIN, 15));
-        l1 = new JLabel(new ImageIcon("indian.png"));
+        l1 = new JLabel(new ImageIcon("images/indian.png"));
         l2 = new JLabel("INDIAN TRANSPORT DEPARTMENT");
         l2.setFont(new Font("Bookman Old Style", Font.PLAIN, 20));
         l3 = new JLabel("GOVERNMENT OF BIHAR");
@@ -225,7 +225,7 @@ class renewform extends JFrame implements Printable, ActionListener, KeyListener
     renewform(String x) {
         setTitle("Application Renewal-DL");
         setSize(1050, 700);
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
         setResizable(false);
         setLocationRelativeTo(null);
         setLayout(new BorderLayout());
@@ -239,7 +239,7 @@ class renewform extends JFrame implements Printable, ActionListener, KeyListener
         ldate.setFont(new Font("Bookman Old Style", Font.PLAIN, 15));
         lhead = new JLabel("<html><b><u>Renewal-DL Report</html>");
         lhead.setFont(new Font("Arial", Font.PLAIN, 15));
-        l1 = new JLabel(new ImageIcon("indian.png"));
+        l1 = new JLabel(new ImageIcon("images/indian.png"));
         l2 = new JLabel("INDIAN TRANSPORT DEPARTMENT");
         l2.setFont(new Font("Bookman Old Style", Font.PLAIN, 20));
         l3 = new JLabel("GOVERNMENT OF BIHAR");

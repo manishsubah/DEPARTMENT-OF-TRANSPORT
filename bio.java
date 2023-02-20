@@ -25,7 +25,7 @@ class bio extends JFrame implements KeyListener, ActionListener {
     bio() {
         setTitle("Biometrics");
         setSize(710, 610);
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
         setResizable(false);
         setLocationRelativeTo(null);
         setLayout(null);

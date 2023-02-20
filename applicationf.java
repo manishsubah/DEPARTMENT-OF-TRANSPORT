@@ -29,7 +29,7 @@ class applicationf extends JFrame implements KeyListener, ActionListener {
         setResizable(false);
         setLocationRelativeTo(null);
         setLayout(null);
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
         panel1.setLayout(null);
         panel2.setLayout(null);
         panel1.setBackground(Color.blue);
@@ -304,13 +304,6 @@ class applicationf extends JFrame implements KeyListener, ActionListener {
         add(b1);
         add(b2);
         add(b3);
-
-        // JScrollBar sb=new JScrollBar(JScrollBar.VERTICAL,0,0,0,180);
-        // JScrollPane sp=new
-        // JScrollPane(JFrame,ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS,ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
-        // sb.setBounds(1000,0,10,700);
-        // add(sb);
-
         add(panel1);
         add(panel2);
 
@@ -397,19 +390,6 @@ class applicationf extends JFrame implements KeyListener, ActionListener {
             }
         });
 
-        /*
-         * t3.addKeyListener(new KeyAdapter()
-         * {
-         * public void keyTyped(KeyEvent e)
-         * {
-         * char car=e.getKeyChar();
-         * if((car=='a'))
-         * {
-         * e.consume();
-         * }
-         * }
-         * });
-         */
         t4.addKeyListener(new KeyAdapter() {
             public void keyTyped(KeyEvent e) {
                 char keyChar = e.getKeyChar();
@@ -562,7 +542,7 @@ class applicationf extends JFrame implements KeyListener, ActionListener {
         setResizable(false);
         setLocationRelativeTo(null);
         setLayout(null);
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
 
         panel1.setLayout(null);
         panel2.setLayout(null);
@@ -841,11 +821,7 @@ class applicationf extends JFrame implements KeyListener, ActionListener {
         add(b2);
         add(b3);
 
-        // JScrollBar sb=new JScrollBar(JScrollBar.VERTICAL,0,0,0,180);
-        // JScrollPane sp=new
-        // JScrollPane(JFrame,ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS,ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
-        // sb.setBounds(1000,0,10,700);
-        // add(sb);
+        
 
         add(panel1);
         add(panel2);
@@ -930,19 +906,7 @@ class applicationf extends JFrame implements KeyListener, ActionListener {
             }
         });
 
-        /*
-         * t3.addKeyListener(new KeyAdapter()
-         * {
-         * public void keyTyped(KeyEvent e)
-         * {
-         * char car=e.getKeyChar();
-         * if((car=='a'))
-         * {
-         * e.consume();
-         * }
-         * }
-         * });
-         */
+        
         t4.addKeyListener(new KeyAdapter() {
             public void keyTyped(KeyEvent e) {
                 char keyChar = e.getKeyChar();
@@ -1244,19 +1208,7 @@ class applicationf extends JFrame implements KeyListener, ActionListener {
 
                 }
 
-                /*
-                 * t2.setText("");t3.setText("");t4.setText("");t5.setText("");t6.setText("");t7
-                 * .setText("");t8.setText("");t9.setText("");t10.setText("");t11.setText("");
-                 * t12.setText("");t13.setText("");t14.setText("");t15.setText("");t16.setText(
-                 * "");
-                 * ta.setText("");ta1.setText("");ta2.setText("");
-                 * cb1.setSelectedItem("--Select--");cb2.
-                 * setSelectedItem("--Select Blood Group--");
-                 * //rd1.setState(false);
-                 * //rd2.setValue(false);rd3.setValue(false);
-                 * ch1.setSelected(false);ch2.setSelected(false);ch3.setSelected(false);
-                 * t3.requestFocus();
-                 */
+                
                 new vclass().setVisible(true);
                 dispose();
                 // Toolkit.getDefaultToolkit().setLockingKeyState(KeyEvent.VK_CAPS_LOCK,false);

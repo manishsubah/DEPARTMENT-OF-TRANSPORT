@@ -26,7 +26,7 @@ class drivingform extends JFrame implements Printable, ActionListener, KeyListen
     drivingform() {
         setTitle("Driving Licence");
         setSize(1050, 700);
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
         setResizable(false);
         setLocationRelativeTo(null);
         setLayout(new BorderLayout());
@@ -39,7 +39,7 @@ class drivingform extends JFrame implements Printable, ActionListener, KeyListen
         ldate.setFont(new Font("Bookman Old Style", Font.PLAIN, 15));
         lhead = new JLabel("<html><b><u>Driving Licence Report</html>");
         lhead.setFont(new Font("Arial", Font.PLAIN, 15));
-        l1 = new JLabel(new ImageIcon("indian.png"));
+        l1 = new JLabel(new ImageIcon("images/indian.png"));
 
         l2 = new JLabel("INDIAN TRANSPORT DEPARTMENT");
         l2.setFont(new Font("Bookman Old Style", Font.PLAIN, 20));
@@ -201,8 +201,7 @@ class drivingform extends JFrame implements Printable, ActionListener, KeyListen
                 ll11.setText(rs.getString(11));
                 ll12.setText(rs.getString(16));
                 img = rs.getString(12);
-                // lp.setIcon(new ImageIcon(rs.getString(12)));
-                // ls.setIcon(new ImageIcon(rs.getString(13)));
+                
                 relation = rs.getString(14);
                 fname = rs.getString(15);
             }
@@ -249,7 +248,7 @@ class drivingform extends JFrame implements Printable, ActionListener, KeyListen
         setResizable(false);
         setLocationRelativeTo(null);
         setLayout(new BorderLayout());
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
 
         p1.setLayout(null);
         p1.setSize(1000, 700);
@@ -264,7 +263,7 @@ class drivingform extends JFrame implements Printable, ActionListener, KeyListen
         ldate.setFont(new Font("Bookman Old Style", Font.PLAIN, 15));
         lhead = new JLabel("<html><b><u>Driving Licence Report</html>");
         lhead.setFont(new Font("Arial", Font.PLAIN, 15));
-        l1 = new JLabel(new ImageIcon("indian.png"));
+        l1 = new JLabel(new ImageIcon("images/indian.png"));
 
         l2 = new JLabel("INDIAN TRANSPORT DEPARTMENT");
         l2.setFont(new Font("Bookman Old Style", Font.PLAIN, 20));

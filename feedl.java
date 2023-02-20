@@ -22,7 +22,7 @@ class feedl extends JFrame implements ActionListener, KeyListener {
     feedl() {
         setTitle("Fee Description");
         setSize(600, 670);
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
         setResizable(false);
         setLocationRelativeTo(null);
         setLayout(null);

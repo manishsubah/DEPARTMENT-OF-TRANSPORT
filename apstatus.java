@@ -2,10 +2,6 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import java.sql.*;
-import javax.swing.table.*;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 class apstatus extends JFrame implements ActionListener, KeyListener {
     String r = "", fname = "", hname = "";
@@ -25,7 +21,7 @@ class apstatus extends JFrame implements ActionListener, KeyListener {
     apstatus() {
         setTitle("Application Status");
         setSize(1250, 670);
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
         setResizable(false);
         setLocationRelativeTo(null);
         setLayout(null);

@@ -31,6 +31,7 @@ class searchll extends JFrame implements KeyListener, ActionListener {
         setResizable(false);
         setLocationRelativeTo(null);
         setLayout(null);
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
 
         panel1.setLayout(null);
         panel2.setLayout(null);

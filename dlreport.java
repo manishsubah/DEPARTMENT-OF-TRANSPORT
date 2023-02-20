@@ -19,7 +19,7 @@ class dlreport extends JFrame implements ActionListener, KeyListener {
     dlreport() {
         setTitle("Driving Licence Report");
         setSize(600, 390);
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
         setResizable(false);
         setLocationRelativeTo(null);
         setLayout(null);

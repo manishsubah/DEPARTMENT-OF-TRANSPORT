@@ -10,14 +10,14 @@ class createtables extends JFrame implements ActionListener, KeyListener {
     createtables() {
         setTitle("Database");
         setSize(400, 300);
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
         setResizable(false);
         setLocationRelativeTo(null);
         try {
             UIManager.setLookAndFeel("com.sun.java.swing.plaf.nimbus.NimbusLookAndFeel");
-            // UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
+            
         } catch (Exception e) {
-            System.out.print("manish");
+            
         }
         setLayout(new GridLayout(3, 1));
         createTables = new JButton("Create Tables");
@@ -136,7 +136,7 @@ class createtables extends JFrame implements ActionListener, KeyListener {
                 ta.setText(ta.getText() + "\nTable12 created successfully...");
                 JOptionPane.showMessageDialog(this, "Tables are created successfully.", "Administer",
                         JOptionPane.INFORMATION_MESSAGE);
-                s.executeUpdate("insert into admintor values('manish',255,255,255)");
+                s.executeUpdate("insert into admintor values('manish',255,255,255)");//create admin value
             } else if (e.getSource() == chgPassword) {
                 String result = JOptionPane.showInputDialog(this, "Enter the master password :",
                         "Change Master Password", JOptionPane.PLAIN_MESSAGE);

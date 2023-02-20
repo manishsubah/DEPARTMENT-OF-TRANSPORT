@@ -28,7 +28,7 @@ class smartcard extends JFrame implements Printable, ActionListener, KeyListener
     smartcard() {
         setTitle("Driving Licence");
         setSize(550, 450);
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
         setResizable(false);
         setLocationRelativeTo(null);
         setLayout(null);
@@ -45,7 +45,7 @@ class smartcard extends JFrame implements Printable, ActionListener, KeyListener
 
         try {
             Toolkit kit = Toolkit.getDefaultToolkit();
-            img1 = kit.getImage("indian.png");
+            img1 = kit.getImage("images/indian.png");
             img1 = img1.getScaledInstance(40, 70, Image.SCALE_DEFAULT);
 
         } catch (Exception eeee) {
@@ -55,7 +55,7 @@ class smartcard extends JFrame implements Printable, ActionListener, KeyListener
         l1 = new JLabel(new ImageIcon(img1));
         try {
             Toolkit kit = Toolkit.getDefaultToolkit();
-            img2 = kit.getImage("sec.png");
+            img2 = kit.getImage("images/sec.png");
             img2 = img2.getScaledInstance(70, 50, Image.SCALE_DEFAULT);
 
         } catch (Exception eeee) {
@@ -72,7 +72,7 @@ class smartcard extends JFrame implements Printable, ActionListener, KeyListener
         l3 = new JLabel("GOVERNMENT OF BIHAR");
         l3.setFont(new Font("Bookman Old Style", Font.PLAIN, 14));
 
-        l4 = new JLabel("DL : 122568902");
+        l4 = new JLabel("DL : ");
         l4.setFont(new Font("Arial", Font.PLAIN, 17));
         l4.setForeground(Color.blue);
 
@@ -105,21 +105,21 @@ class smartcard extends JFrame implements Printable, ActionListener, KeyListener
         ls = new JLabel();
         ls.setBorder(BorderFactory.createLineBorder(Color.black));
 
-        ll2 = new JLabel("John Right");
+        ll2 = new JLabel("");
         ll2.setFont(new Font("Arial", Font.BOLD, 17));
-        ll3 = new JLabel("Johnson Right");
+        ll3 = new JLabel("");
         ll3.setFont(new Font("Arial", Font.BOLD, 17));
-        ll4 = new JLabel("New York");
+        ll4 = new JLabel("");
         ll4.setFont(new Font("Arial", Font.PLAIN, 14));
-        ll8 = new JLabel("12/02/2001");
+        ll8 = new JLabel("");
         ll8.setFont(new Font("Arial", Font.BOLD, 17));
-        ll9 = new JLabel("AB");
+        ll9 = new JLabel("");
         ll9.setFont(new Font("Arial", Font.BOLD, 17));
-        ll10 = new JLabel("LMV");
+        ll10 = new JLabel("");
         ll10.setFont(new Font("Arial", Font.BOLD, 17));
-        ll11 = new JLabel("12/05/2022");
+        ll11 = new JLabel("");
         ll11.setFont(new Font("Arial", Font.BOLD, 17));
-        ll12 = new JLabel("12/05/2044");
+        ll12 = new JLabel("");
         ll12.setFont(new Font("Arial", Font.BOLD, 17));
 
         b1 = new JButton("PRINT");
@@ -187,8 +187,8 @@ class smartcard extends JFrame implements Printable, ActionListener, KeyListener
         add(b1);
         b1.addActionListener(this);
         b1.addKeyListener(this);
-        img = "profile.jpg";
-        sig = "sign.jpg";
+        // img = "images/profile.jpg";
+        // sig = "images/sign.jpg";
         setVisible(true);
 
         try {
@@ -263,7 +263,7 @@ class smartcard extends JFrame implements Printable, ActionListener, KeyListener
     smartcard(String get1) {
         setTitle("Driving Licence");
         setSize(550, 450);
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
         setResizable(false);
         setLocationRelativeTo(null);
         setLayout(null);
@@ -280,7 +280,7 @@ class smartcard extends JFrame implements Printable, ActionListener, KeyListener
 
         try {
             Toolkit kit = Toolkit.getDefaultToolkit();
-            img1 = kit.getImage("indian.png");
+            img1 = kit.getImage("images/indian.png");
             img1 = img1.getScaledInstance(40, 70, Image.SCALE_DEFAULT);
 
         } catch (Exception eeee) {
@@ -290,7 +290,7 @@ class smartcard extends JFrame implements Printable, ActionListener, KeyListener
         l1 = new JLabel(new ImageIcon(img1));
         try {
             Toolkit kit = Toolkit.getDefaultToolkit();
-            img2 = kit.getImage("sec.png");
+            img2 = kit.getImage("images/sec.png");
             img2 = img2.getScaledInstance(70, 50, Image.SCALE_DEFAULT);
 
         } catch (Exception eeee) {

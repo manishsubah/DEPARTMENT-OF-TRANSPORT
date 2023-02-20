@@ -29,7 +29,7 @@ class home extends JFrame implements ActionListener, KeyListener {
         setTitle("Login-Menu Screen  Connected with Server : DTO");
         setSize(1300, 700);
         setResizable(false);
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
         setLocationRelativeTo(null);
         setLayout(null);
         panel1.setLayout(null);
@@ -98,7 +98,7 @@ class home extends JFrame implements ActionListener, KeyListener {
         l2 = new JLabel("BR-841301-TRANSPORT DEPARTMENT SARAN");
         l2.setFont(new Font("Bookman Old Style", Font.BOLD, 20));
 
-        l1 = new JLabel(new ImageIcon("transport.gif"));
+        l1 = new JLabel(new ImageIcon("images/transport.gif"));
         l1.setBounds(350, 50, 500, 200);
         l2.setBounds(340, 130, 1000, 200);
         panel1.add(l1);
@@ -116,13 +116,13 @@ class home extends JFrame implements ActionListener, KeyListener {
         panel1.setBounds(50, 70, 1200, 550);
         add(panel1);
 
-        b2 = new JButton("", new ImageIcon("lapplication.png"));
-        b3 = new JButton("", new ImageIcon("s.png"));
-        b4 = new JButton("", new ImageIcon("app.png"));
-        b5 = new JButton("", new ImageIcon("appstatus.png"));
-        b6 = new JButton("", new ImageIcon("logout.png"));
+        b2 = new JButton("", new ImageIcon("images/lapplication.png"));
+        b3 = new JButton("", new ImageIcon("images/s.png"));
+        b4 = new JButton("", new ImageIcon("images/app.png"));
+        b5 = new JButton("", new ImageIcon("images/appstatus.png"));
+        b6 = new JButton("", new ImageIcon("images/logout.png"));
 
-        tb1 = new JToggleButton("", new ImageIcon("unlock.png"));
+        tb1 = new JToggleButton("", new ImageIcon("images/unlock.png"));
 
         b2.setToolTipText("Application for Learner Licence");
         b3.setToolTipText("Application for Smart Card/Driving Licence");
@@ -189,7 +189,7 @@ class home extends JFrame implements ActionListener, KeyListener {
         b6.addKeyListener(this);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
-        //new login1();
+        new login1();
 
         try {
             Class.forName("oracle.jdbc.driver.OracleDriver");
@@ -214,7 +214,7 @@ class home extends JFrame implements ActionListener, KeyListener {
         }
         setTitle("Login-Menu Screen  Connected with Server : DTO");
         setSize(1300, 700);
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
 
         setResizable(false);
         setLocationRelativeTo(null);
@@ -287,7 +287,7 @@ class home extends JFrame implements ActionListener, KeyListener {
         l2 = new JLabel("BR-841301-TRANSPORT DEPARTMENT SARAN");
         l2.setFont(new Font("Bookman Old Style", Font.BOLD, 20));
 
-        l1 = new JLabel(new ImageIcon("transport.gif"));
+        l1 = new JLabel(new ImageIcon("images/transport.gif"));
         l1.setBounds(350, 50, 500, 200);
         l2.setBounds(340, 130, 1000, 200);
         panel1.add(l1);
@@ -305,13 +305,13 @@ class home extends JFrame implements ActionListener, KeyListener {
         panel1.setBounds(50, 70, 1200, 550);
         add(panel1);
 
-        b2 = new JButton("", new ImageIcon("lapplication.png"));
-        b3 = new JButton("", new ImageIcon("s.png"));
-        b4 = new JButton("", new ImageIcon("app.png"));
-        b5 = new JButton("", new ImageIcon("appstatus.png"));
-        b6 = new JButton("", new ImageIcon("logout.png"));
+        b2 = new JButton("", new ImageIcon("images/lapplication.png"));
+        b3 = new JButton("", new ImageIcon("images/s.png"));
+        b4 = new JButton("", new ImageIcon("images/app.png"));
+        b5 = new JButton("", new ImageIcon("images/appstatus.png"));
+        b6 = new JButton("", new ImageIcon("images/logout.png"));
 
-        tb1 = new JToggleButton("", new ImageIcon("unlock.png"));
+        tb1 = new JToggleButton("", new ImageIcon("images/unlock.png"));
 
         b2.setToolTipText("Application for Learner Licence");
         b3.setToolTipText("Application for Smart Card/Driving Licence");
@@ -439,7 +439,7 @@ class home extends JFrame implements ActionListener, KeyListener {
         } else if (e.getSource() == developer) {
             new develop();
         } else if (e.getSource() == master) {
-            new Admin();
+            new admin();
         } else if (e.getSource() == b2) {
             new form5().setVisible(true);
         } else if (e.getSource() == b3) {
@@ -456,7 +456,7 @@ class home extends JFrame implements ActionListener, KeyListener {
             }
         } else if (e.getSource() == tb1) {
             if (tb1.isSelected() == true) {
-                tb1.setIcon(new ImageIcon("lock.png"));
+                tb1.setIcon(new ImageIcon("images/lock.png"));
                 b2.setEnabled(false);
                 b3.setEnabled(false);
                 b4.setEnabled(false);
@@ -500,7 +500,7 @@ class home extends JFrame implements ActionListener, KeyListener {
                 reportdl.setEnabled(true);
                 developer.setEnabled(true);
                 setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                tb1.setIcon(new ImageIcon("unlock.png"));
+                tb1.setIcon(new ImageIcon("images/unlock.png"));
             }
 
         }

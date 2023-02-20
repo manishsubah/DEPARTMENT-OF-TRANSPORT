@@ -29,7 +29,7 @@ class applearnerform extends JFrame implements Printable, ActionListener, KeyLis
         setResizable(false);
         setLocationRelativeTo(null);
         setLayout(new BorderLayout());
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
         p1.setLayout(null);
         p1.setSize(1000, 700);
 
@@ -249,7 +249,7 @@ class applearnerform extends JFrame implements Printable, ActionListener, KeyLis
         setResizable(false);
         setLocationRelativeTo(null);
         setLayout(new BorderLayout());
-        setIconImage(Toolkit.getDefaultToolkit().getImage("hicon.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("images/hicon.png"));
 
         p1.setLayout(null);
         p1.setSize(1000, 700);

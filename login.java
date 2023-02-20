@@ -112,7 +112,7 @@ class login implements ActionListener, KeyListener {
         newuser.addActionListener(this);
 
         dialog.setDefaultCloseOperation(dialog.DO_NOTHING_ON_CLOSE);
-        dialog.setSize(600, 305);
+        dialog.setSize(610, 320);
         textfieldname.addKeyListener(this);
         textfieldpassword.addKeyListener(this);
         textfieldstaff.addKeyListener(this);
@@ -330,7 +330,7 @@ class login implements ActionListener, KeyListener {
                         Class.forName("oracle.jdbc.driver.OracleDriver");
                         Connection c = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "system",
                                 "manish");
-                        // Connection c=DriverManager.getConnection("jdbc:odbc:dto","","");
+                        
                         Statement s = c.createStatement();
                         String sql = "Select staffid,name,password from nuser WHERE staffid='"
                                 + textfieldstaff.getText() + "'";
